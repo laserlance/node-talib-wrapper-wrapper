@@ -9,7 +9,8 @@ A wrapper for the TA-LIB wrapper for NodeJS, here: [Nodejs TA-LIB](https://githu
 1. Feed the module your candle data. This can be any from any period you wish i.e. 1-minute, 1-hour, 30-minutes, etc.. The data type is an object of arrays i.e. marketData.open = [], marketData.high = [], marketData.low = [] etc..
 `ta.marketdata = marketData;`
 1. Now, you can call any function you wish and cascade, or daisy chain, them together, like this. Just remember to call ta.done(callback) at the end.
-```ta.ACCBANDS()
+```
+ta.ACCBANDS()
     .BBANDS()
     .DEMA()
     .EMA()
@@ -37,7 +38,8 @@ A wrapper for the TA-LIB wrapper for NodeJS, here: [Nodejs TA-LIB](https://githu
 ```
 1. You can also set the options for each individual function by passing an object as seen in the .SAR({optInAcceleration:0.02,optInMaximum:0.2}) example above.
 1. Put all together:
-```const tainterface = require('./talib.js');
+```
+const tainterface = require('./talib.js');
 const ta = new tainterface.talib();
 
 var marketData = {
@@ -80,7 +82,8 @@ ta.ACCBANDS()
     });
 ```
 1. You can certainly call all of the methods, like this:
-```ta.ACCBANDS()
+```
+ta.ACCBANDS()
     /*.BBANDS()
     .DEMA()
     .EMA()
