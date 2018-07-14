@@ -226,7 +226,7 @@ ta.ACCBANDS()
 What one ends up with is an object of arrays of objects. Interpretation is left up to you, still, but now it's a lot easier to call many methods.
 
 One can also use the *explain* function of the original wrapper like this:
-`ta.explain = function("STDDEV");`
+`ta.explain("STDDEV");`
 
 ### NOTE:
 Version 1.0.5 of the TA-LIB wrapper has a bug where the TA_IMI and TA_AVGDEV functions do not work. See: https://github.com/oransel/node-talib/issues/39
