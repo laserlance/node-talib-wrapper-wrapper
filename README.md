@@ -1,5 +1,5 @@
 # cascading-talib-nodejs
-A wrapper for the TA-LIB wrapper for NodeJS, here: [Nodejs TA-LIB](https://github.com/oransel/node-talib). **You must have that module in order to use this one.** This gist allows one to do method cascading so that one can pick and choose all, or any, TA-LIB method to perform.
+A wrapper for the TA-LIB wrapper for NodeJS, here: [Nodejs TA-LIB](https://github.com/oransel/node-talib). **You must have that module in order to use this one.** This code allows one to do method cascading so that one can pick and choose all, or any, TA-LIB method to perform.
 
 ## Example Usage:
 1. Include this file. This example assumes the file lives in the same directory as your application
@@ -228,5 +228,5 @@ What one ends up with is an object of arrays of objects. Interpretation is left 
 One can also use the *explain* function of the original wrapper like this:
 `ta.explain = function("STDDEV");`
 
-###NOTE:###
+### NOTE:
 Version 1.0.5 of the TA-LIB wrapper has a bug where the TA_IMI and TA_AVGDEV functions do not work. See: https://github.com/oransel/node-talib/issues/39
