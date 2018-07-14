@@ -84,7 +84,7 @@ ta.ACCBANDS()
 1. You can certainly call all of the methods, like this:
 ```
 ta.ACCBANDS()
-    /*.BBANDS()
+    .BBANDS()
     .DEMA()
     .EMA()
     .HT_TRENDLINE()
