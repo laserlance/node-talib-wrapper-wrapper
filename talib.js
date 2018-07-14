@@ -39,6 +39,7 @@ function talibInterface(){
         }, function (err, result){
 
             var data = {
+                
                 outrealupperband: result.result.outRealUpperBand,
                 outrealmiddleband: result.result.outRealMiddleBand,
                 outreallowerband: result.result.outRealLowerBand,
@@ -64,6 +65,7 @@ function talibInterface(){
         }, function (err, result){
 
             var data = {
+                
                 outrealupperband: result.result.outRealUpperBand,
                 outrealmiddleband: result.result.outRealMiddleBand,
                 outreallowerband: result.result.outRealLowerBand,
